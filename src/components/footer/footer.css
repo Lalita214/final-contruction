@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    background-color:rgba(56, 55, 81, 1);
+    height:55vh;
+    background-image:linear-gradient(      rgba(56, 55, 81, 1),
+    rgba(53, 53, 81, 0.7)),url(./mountain.png) ;
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-position-x:right;
+}
+.footer-container{
+    display: flex;
+    height:50vh;
+    width:100%;
+    padding:12%;
+    gap: 18%;
+    color: white;
+}
+.footer-top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5%;
+    position: relative;
+    /* border: 1px solid black; */
+    img{
+        position: absolute;
+        bottom: 50px;
+        height: 80px;
+        width: 110px;
+
+    }
+}
+.footer-content{
+    margin-bottom: 15px;
+    /* gap: 10px; */
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li{
+            padding-top: 5px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            color: gray;
+        }
+    }
+    p{
+        color: gray;
+    }
+}
+.social-logo{
+    display: flex;
+    gap: 20px;
+    font-size:x-large;
+}
+h3{
+    font-size: 16px;
+}
+.footer-top-content p{
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.footer-copyright{
+    margin: auto;
+    text-align: center;
+    color:#EAEAEA ;
+
+}
